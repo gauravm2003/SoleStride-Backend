@@ -1,4 +1,4 @@
-# SoleMate Backend API
+# SoleStride Backend API
 
 Custom Express backend for auth, users, admin, products, orders, reviews, wishlist, and contact flows.
 
