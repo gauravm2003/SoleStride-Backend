@@ -44,19 +44,19 @@ const createTransporter = () => {
 const transporter = createTransporter();
 
 // Verify transporter connection (optional, for testing)
-if (transporter) {
-  transporter.verify((error, success) => {
-    if (error) {
-      console.error('❌ Email transporter verification failed:', error.message);
-      console.error('   Please check your email configuration in .env');
-    } else {
-      console.log('✅ Email transporter verified successfully');
-    }
-  });
-} else {
-  console.warn('⚠️  Email service not configured. Email sending will be disabled.');
-  console.warn('   Please configure email settings in .env (see EMAIL_SETUP.md)');
-}
+// if (transporter) {
+//   transporter.verify((error, success) => {
+//     if (error) {
+//       console.error('❌ Email transporter verification failed:', error.message);
+//       console.error('   Please check your email configuration in .env');
+//     } else {
+//       console.log('✅ Email transporter verified successfully');
+//     }
+//   });
+// } else {
+//   console.warn('⚠️  Email service not configured. Email sending will be disabled.');
+//   console.warn('   Please configure email settings in .env (see EMAIL_SETUP.md)');
+// }
 
 // Email templates
 const emailTemplates = {
