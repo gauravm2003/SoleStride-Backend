@@ -1,7 +1,7 @@
 {
-  "name": "solemate-backend",
+  "name": "solestride-backend",
   "version": "1.0.0",
-  "description": "SoleMate Backend API with Express.js and JWT Authentication",
+  "description": "SoleStride Backend API with Express.js and JWT Authentication",
   "main": "src/server.js",
   "type": "module",
   "scripts": {

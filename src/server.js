@@ -44,6 +44,7 @@ app.use(cookieParser());
 app.use('/uploads', express.static(path.resolve(__dirname, '../uploads')));
 
 // Rate limiting
+app.set('trust proxy', 1);
 app.use('/api/', apiLimiter);
 
 // Health check endpoint
