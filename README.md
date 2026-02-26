@@ -40,15 +40,3 @@ Custom Express backend for auth, users, admin, products, orders, reviews, wishli
 ## Environment
 
 Required variables are in `.env.example`.
-
-Important:
-- Use real DB credentials.
-- For Supabase Postgres, set `DB_SSL=true`.
-- Set `CORS_ORIGIN` to frontend origin.
-- Configure SMTP/Gmail env values for email delivery.
-
-## Notes
-
-- Register does not auto-login; user must verify via email link and then login.
-- Uploaded product images are served from `/uploads/products/*`.
-- Migrations live in `src/database/migrations/` and are run in filename order.
